@@ -1,0 +1,33 @@
+.transactionHistory {
+  min-width: 650px;
+  margin: 0 auto;
+  table-layout: fixed;
+  text-align: center;
+  border: 1px solid black;
+  border-spacing: initial;
+}
+
+tr,
+td,
+th {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+th {
+  text-transform: uppercase;
+  color: white;
+  background: #2a2a2a;
+}
+
+tr:nth-child(even) {
+  background: lightgrey;
+}
+
+td {
+  text-transform: capitalize;
+}/*# sourceMappingURL=TransactionHistory.module.css.map */
